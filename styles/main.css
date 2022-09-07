@@ -9,7 +9,10 @@ h1 {
   color: purple;
   background-color: plum;
   font-size: 40px;
-  
+  border-radius: 10px;
+  border-color:rgb(255, 230, 0);
+  border-width: 5px;
+  border-style: solid;
 }
 p {
   color: rgb(195, 89, 195);
@@ -17,11 +20,24 @@ p {
   font-size: 20px;
   font-weight: 50;
   font-family: 'Caladea', serif;
+
 }
 
 h2 {
   color: plum;
   background-color: rgb(255, 230, 0);
+  border-radius: 10px;
+  border-color: purple;
+  border-width: 5px;
+  border-style: solid;
+}
+
+h3 {
+  color: rgb(255, 230, 0);
+  border-radius: 10px;
+  border-color:plum;
+  border-width: 5px;
+  border-style: solid;
 }
 
 table {
@@ -56,6 +72,10 @@ table {
 
 div {
   background-color:blanchedalmond;
+  border-radius: 10px;
+  border-color:rgb(255, 230, 0);
+  border-width: 5px;
+  border-style: solid;
 }
 /* @font-face {
   font-family: 'Pacifico', cursive;
