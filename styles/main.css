@@ -1,0 +1,25 @@
+body {
+
+  background-color: orange;
+}
+
+h1 {
+  color: purple;
+  background-color: plum;
+  font-size: 40px;
+}
+p {
+  color: rgb(195, 89, 195);
+  background-color: burlywood;
+  font-size: 20px;
+}
+
+h2 {
+  color: plum;
+  background-color: rgb(255, 230, 0);
+}
+
+table {
+  color: green;
+  background-color:pink;
+}
