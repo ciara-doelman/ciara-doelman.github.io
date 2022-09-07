@@ -25,6 +25,7 @@ p {
 
 }
 
+
 h2 {
   color: plum;
   background-color: rgb(255, 230, 0);
@@ -136,4 +137,8 @@ label {
 .content2, .content3, .content4, .content5 {
   display: none;
 
+}
+.middle {
+  text-align: center;
+  background-color: orange;
 }
