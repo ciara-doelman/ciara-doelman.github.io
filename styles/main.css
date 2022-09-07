@@ -1,17 +1,22 @@
 body {
 
   background-color: orange;
+  font-family: 'Pacifico', cursive;
+
 }
 
 h1 {
   color: purple;
   background-color: plum;
   font-size: 40px;
+  
 }
 p {
   color: rgb(195, 89, 195);
   background-color: burlywood;
   font-size: 20px;
+  font-weight: 50;
+  /* font-family: 'Caladea', serif; */
 }
 
 h2 {
@@ -23,6 +28,7 @@ table {
   color: green;
   background-color:pink;
   padding: 20px 20px 20px 20px;
+  /* font-family: 'Caladea', serif; */
 }
 .responsive-img {
   max-width: 100%;
@@ -39,7 +45,6 @@ table {
   h1 {
     color: rgb(71, 49, 236);
     background-color: rgb(181, 167, 239);
-
   }
 }
 @media (min-width: 1200px) {
@@ -48,3 +53,7 @@ table {
     font-size: 25px;
   }
 }
+/* @font-face {
+  font-family: 'Pacifico', cursive;
+  src: url(https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap);
+} */
