@@ -9,7 +9,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
   <body>
+    <br>
     <h1>What are the differences between relative, absolute, and fixed positioning?</h1>
+    <br>
+    <br>
 <div>
   <p>There are many ways to position elements in web design, and it is super important to understand the difference between the following:</p>
   <ul>
@@ -24,28 +27,30 @@
 <div>
 <p>So, first of all, here is a screenshot of a table on my blog homepage, currently with zero positioning changes made to it:
 </p>
-  <img class="responsive-img" src="../images/tb1p1.png" alt="Screenshot of Table">
+  <img class="small-responsive-img" src="../images/tb1p1.png" alt="Screenshot of Table">
 
 </div>
 <br>
 <div>
   <p>And here is the CSS used in its design: 
   </p>
-  <img class="responsive-img" src="../images/tb1p2.png" alt="Screenshot of Code">
+  <img class="small-responsive-img" src="../images/tb1p2.png" alt="Screenshot of Code">
 
 </div>
 <br>
+<div>
 <p>You can see that the only CSS I have done to the blog has been to do with its colour, padding, and border. So what happens when you get into the Positioning Realm?
 </p>
+</div>
 <br>
 <h2>Relative Positioning</h2>
 <br>
 <div>
 <p>Relative positioning allows you to move an element from where it is currently. So the “relative” is not about other elements - the element is relative to itself. If I were to add “position: relative” to the CSS code above without specifying a positioning attribute, nothing would happen. But when I add “left: 15px” as well, this is what happens:
 </p>
-<img class="responsive-img" src="../images/t1b1p3.png" alt="Screenshot of Table - moved to right">
+<img class="small-responsive-img" src="../images/t1b1p3.png" alt="Screenshot of Table - moved to right">
 <br>
-<img class="responsive-img" src="../images/tb1p4.png" alt="Screenshot of Code with relative positioning">
+<img class="small-responsive-img" src="../images/tb1p4.png" alt="Screenshot of Code with relative positioning">
 <p>The table has moved 15 pixels <strong>from</strong> the left, relative to where it was sitting before.
 </p>
 </div>
@@ -57,16 +62,16 @@
 </p>
 <p>The main thing you need to know is that when you use absolute positioning on an element, it will remove it from the flow of the page. That means it stops affecting other elements and other elements stop affecting it. When I changed the above code from “relative” to “absolute”, nothing obvious happened. Then, since the table is mashed against the bottom of the page, I added “bottom: 15px;” to see what would happen, and this is the result: 
 </p>
-<img class="responsive-img" src="../images/tb1p5.png" alt="Screenshot of table in front of image">
+<img class="small-responsive-img" src="../images/tb1p5.png" alt="Screenshot of table in front of image">
 <p>It went flying up above the image! So instead I thought absolute positioning might be better suited for another element on the page. I made a new class for my homepage title and using absolute positioning, it went from looking like this:
 </p>
-<img class="responsive-img" src="../images/tb1p6.png" alt="Screenshot of header above image">
+<img class="small-responsive-img" src="../images/tb1p6.png" alt="Screenshot of header above image">
 <p>To this:</p>
-<img class="responsive-img" src="../images/tb1p7.png" alt="Screenshot of header in front of image">
+<img class="small-responsive-img" src="../images/tb1p7.png" alt="Screenshot of header in front of image">
 <p>Swish! Here’s the CSS and HTML code if you want to Steal Her Look: </p>
-<img class="responsive-img" src="../images/tb1p8.png" alt="Screenshot of homepage title code css">
+<img class="small-responsive-img" src="../images/tb1p8.png" alt="Screenshot of homepage title code css">
 <br>
-<img class="responsive-img" src="../images/tb1p9.png" alt="Screenshot of homepage title code html">
+<img class="small-responsive-img" src="../images/tb1p9.png" alt="Screenshot of homepage title code html">
 
 </div>
 <br>
@@ -77,11 +82,16 @@
 </p>
 <p>Here’s what happened when I changed the homepage title to a fixed position: 
 </p>
-<img class="responsive-img" src="../images/tb1p10.png" alt="Screenshot of fixed homepage title">
+<img class="small-responsive-img" src="../images/tb1p10.png" alt="Screenshot of fixed homepage title">
 
 </div>
 <br>
-<p>Thanks for reading, hit me UP on Discord!!
+<div>
+  <p>Thanks for reading, hit me UP on Discord!!
 </p>
+<p>Go back to <a href="index.html">Home</a></p>
+</div>
+<br>
+<br>
 </body>
 </html>

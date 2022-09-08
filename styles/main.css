@@ -42,6 +42,12 @@ h3 {
   border-style: solid;
 }
 
+ul {
+  color:rgb(79, 33, 245);
+  position: relative;
+  left: 100px;
+}
+
 table {
 
   background-color:pink;
@@ -58,6 +64,17 @@ table {
   border-color:plum;
   border-width: 5px;
   border-style: solid;
+}
+.small-responsive-img {
+  max-width: 30%;
+  height: auto;
+  border-radius: 10px;
+  border-color:rgb(76, 14, 76);
+  border-width: 5px;
+  border-style: solid;
+  position:relative;
+  left: 70px;
+  right: 70px;
 }
 
 span {
@@ -93,6 +110,10 @@ div {
   border-color:rgb(255, 230, 0);
   border-width: 5px;
   border-style: solid;
+  position:relative;
+  left: 15px;
+  right: 15px;
+  font-size: 25px;
 }
 * {
   margin: 0;
