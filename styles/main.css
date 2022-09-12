@@ -45,7 +45,8 @@ h3 {
 ul {
   color:rgb(79, 33, 245);
   position: relative;
-  left: 100px;
+  left: 50px;
+  right:150px;
 }
 
 table {
