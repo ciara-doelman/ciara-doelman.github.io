@@ -166,8 +166,15 @@ label {
   background-color: orange;
 }
 .homepagetitle {
-  position:absolute;
+  position: absolute;
   top: 50px;
   left:20px;
   right:20px;
+}
+
+.tidy-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
 }
