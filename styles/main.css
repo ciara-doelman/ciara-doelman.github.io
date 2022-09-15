@@ -111,9 +111,6 @@ div {
   border-color:rgb(255, 230, 0);
   border-width: 5px;
   border-style: solid;
-  position:relative;
-  left: 15px;
-  right: 25px;
   font-size: 25px;
 }
 * {
@@ -165,11 +162,15 @@ label {
   text-align: center;
   background-color: orange;
 }
-.homepagetitle {
+.homepageLayer {
   position: absolute;
   top: 50px;
   left:20px;
   right:20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .tidy-text {
@@ -177,4 +178,25 @@ label {
   flex-direction: column;
   max-width: 800px;
   margin: 0 auto;
+}
+
+.button {
+  font-family: 'Pacifico', cursive;
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  border: 3px solid rgb(195, 89, 195);
+  border-radius: 10px;
+  color: rgb(76, 14, 76);
+  padding: 12px 20px;
+  text-align: center;
+  transition-duration: .15s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  margin: 0px 15px 15px 15px;
+}
+
+button:hover {
+  color: rgb(181, 167, 239);
+  background-color: orange;
 }
