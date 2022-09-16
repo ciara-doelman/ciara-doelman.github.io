@@ -24,14 +24,48 @@
       </div>
       <br>
       <br>
-      <h2>Control flow, loops, arrays, and objects.</h2>
+      <h2>Control flow and loops.</h2>
       <br>
       <br>
       <!-- <button class="button" id="learnLoops">Read More</button> -->
       <div>
-        <p>Control flow: in JavaScript is the flow your computer runs through when reading code. Starting from the top of the code and ending at the bottom, your computer follows each statement and only changes what the control flow does when it hits a statement (e.g. a function) that changes it.</p>
-        <p>Loops: are statements that keep running until </p>
+        <p>Control flow: in JavaScript is the flow your computer runs through when reading code. Starting from the top of the code and ending at the bottom, your computer follows each statement and only changes what the control flow does when it hits a statement (e.g. a function) that changes it. You could think of it as that bucket fountain in Wellington, and the changes are the buckets that change the flow.</p>
+        <p>Loops: are statements that keep running until the condition you set is no longer true or there is nothing left that you can loop. There are several types of loops, but we are focusing on for loops at the moment, which loops through code blocks whatever number of times you specify. It's like a wheel on a bike that will keep spinning depending on how much you push it.</p>
       </div>
+      <div>
+        <h2>The DOM</h2>
+        <p>JavaScript is what makes your page interactive.</p>
+        <p>The document object model ties JavaScript, HTML, and CSS so they can all work together.</p>
+        <p>The DOM is a Web API that builds websites, the structural representation of your entire HTML document - picture it in a tree view where the window is the parent of the document, which is the parent of the HTML, which parents the head & body, etc.</p>
+        <p>Nodes: the browser automatically makes a bunch of other stuff whenever you add an HTML element.</p>
+        <p>The DOM allows you to manipulate documents in the browser window. Since it is an object oriented representation, you can modify it using JavaScript.</p>
+        <p>When you enter document.something into your console, that is the DOM specifying for the code snippet to return something to you. For example document.querySelector(‘#test-button’) is the DOM telling the code to pay attention to your page’s theoretical test button id.</p>
+        <p>The DOM is not a programming language in itself. Often you will write JavaScript commands to use the DOM to access the document, and without the DOM, JavaScript would have no idea what is going on with your web pages.</p>
+        <h3>Events:</h3>
+        <p>When events happen, they pass through the DOM between the different codes you use.</p>
+      </div>
+      <br>
+      <br>
+      <div>
+      <h2>Arrays vs Objects</h2>
+        <p>Objects are things in your code that you can attach properties to. For example:</p>
+        <img class="small-responsive-img" src="../images/Screenshot from 2022-09-16 14-12-53.png" alt="Screenshot of Code Object">
+        <p>Arrays are more like a list of items (such as booleans, numbers, strings, objects) in an order, often sharing a category of some sort. For example:</p>
+        <img class="small-responsive-img" src="../images/Screenshot from 2022-09-16 14-17-48.png" alt="Screenshot of Code Array">
+        <p>You can have an array in an object, and you can have objects in an array.</p>
+    </div>
+    <br>
+    <br>
+    <div>
+    <h2>Functions</h2>
+    <p>Functions are pieces of code that perform tasks. Then, by calling the function, you can make the thing happen.</p>
+    <p>Some things you can do with functions include addition, multiplication, and other simple math equations, plus conversions, make alerts, reactions in your code, and much more.</p>
+    </div>
+    <br>
+    <br>
+    <div>
+      <p>Go back to <a href="../index.html">Home</a></p>
+    </div>
       </div>
       <!-- <script src="../javascript/script.js"></script> -->
   </body>
