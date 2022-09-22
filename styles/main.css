@@ -39,6 +39,8 @@ h3 {
   border-color:plum;
   border-width: 5px;
   border-style: solid;
+  background-color: orange;
+  font-family: 'Pacifico', cursive;
 }
 
 ul {
